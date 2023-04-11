@@ -1,3 +1,4 @@
+<?php
 public function getTimelineNewsAndPolls($ajax = null) {
         if($ajax){
             $secondNews = $_SESSION["secondNews"];
